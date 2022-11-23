@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Membership Form</title>
+    <link rel='stylesheet' href='style.css' type='text/css' />
+    <script src="form.js"></script>
+</head>
+<body onload="document.registration.fname.focus();">
+<div class="allPage">
+    <header>
+        <img alt="Banner" width="100%" height="215" src="custombanner.jpg">
+<h1>Membership Registration Form</h1>
+<p>Please complete all required information to register your account</p>
+    </header>
+<form action="#" name='registration'>
+    <ul>
+        <li><label for="userid">First name:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="fname" size="28" placeholder="Enter your First Name"  /></li>
+        <li><label for="passid">Last name:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="lname" size="28" placeholder="Enter your Last Name" /></li>
+        <li><label for="address">Address:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="address" size="28" placeholder="Enter Address" /></li>
+        <li><label for="userid">City:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="city" size="28" placeholder="Enter your City"  /></li>
+        <li><label for="passid">Postal Code:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="postalcode" size="28" placeholder="Enter your Postal Code" /></li>
+        <li><label for="userid">Province:<sup style="color:deeppink">*</sup> </label></li>
+
+        <li><select name="province" required>
+            <option selected="" value="Default" >(Select Province)</option>
+            <option value="PEI">PEI</option>
+            <option value="NB">NB</option>
+            <option value="NS">NS</option>
+            <option value="QC">QC</option>
+            <option value="ON">ON</option>
+            <option value="MN">MN</option>
+            <option value="SK">SK</option>
+            <option value="AB">AB</option>
+            <option value="BC">BC</option>
+        </select></li>
+        <li><label for="passid">Age:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="age" size="28" placeholder="Enter your Age"  /></li>
+        <li><label for="userid">Password:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="Password" name="passid" size="28" placeholder="Enter your Password"  /></li>
+        <li><label for="passid">Confirm:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="Password" name="confirm" size="28" placeholder="Confirm your password"  /></li>
+        <li><label for="email">Email:<sup style="color:deeppink">*</sup> </label></li>
+        <li><input type="text" name="email" size="28" placeholder="Enter your Email"  /></li>
+        <div class="button" style="text-align:center">
+        <li><input type="submit" name="submit" value="Register Now"onClick="return formValidation();"/></li>
+        <li><input type="reset" name="reset" value="Clear Form" onClick="return confirmreset()" /></li>
+        </div>
+    </ul>
+</form><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<footer>
+    <p style=text-align:center>&copy; Copyright Binet Sheriff Client Side Web Development COMP125 - Membership Form</p>
+</footer>
+</body>
+</html>
+

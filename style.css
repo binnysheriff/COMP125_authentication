@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+}
+h1 {
+    margin-left: 70px;
+}
+form li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.allPage {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+
+}
+
+form ul li label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size:14px;
+}
+
+form ul li input, select, span {
+    float: left;
+    margin-bottom: 10px;
+}
+form .button input:hover{
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+form .button input{
+
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-right: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+[type="submit"] {
+    float:left;
+    clear:left;
+    margin: 10px 0 0 40px;
+    font-size:18px ;
+    display:inline;
+}
+[type="reset"] {
+    float:left;
+    clear:right;
+    margin: 10px 0 0 20px;
+    font-size:18px ;
+    display:inline;
+}
+p {
+    margin-left: 70px;
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #000000;
+}
